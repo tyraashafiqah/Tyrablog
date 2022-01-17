@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tyra's Page</title>
+<link rel="shortcut icon" type="image/png" href="title.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+
+.button {
+  border-radius: 4px;
+  background-color: deeppink;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+div.a {
+  text-indent: 50px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+#customers {
+  font-family: Oswald, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+}
+
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: deeppink;}
+
+#customers tr:hover {background-color: white;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000FF;
+  color: white;
+}
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+img {
+  border-radius: 12px;
+}
+h2 {text-align: center;}
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-pink">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://www.facebook.com/nurathirahshafiqah.btrosdin" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/elmnail_tyra/" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="https://twitter.com/admsyf" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.zalora.com.my/" target="_blank" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-pale-red">
+    <div class="w3-container w3-center w3-animate-bottom">
+    <h1 class="w3-xxxlarge"><b>Annyeonghaseyo <3</b></h1>
+    <h2>It's all about <span class="w3-tag">Tyra! </span></h2>
+    </div>
+
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="tulip.png" alt="Love Blog" width="1600" height="500"> 
+    <div class="w3-display-left w3-padding-large">
+      <div class="w3-container w3-left w3-animate-zoom">
+      <h1 class="w3-text-white">Tyra's</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>내 인생 BLOG! </b></h1>
+    <button class="button"><span>Subscribe </span></button>
+      
+    </div>
+  </header>
+
+   <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-pale-red w3-margin w3-padding-large">
+        <div class="w3-center w3-container w3-black">
+          <h3>EVERYTHING YOU NEED TO KNOW ABOUT ME</h3>
+          <h4><span class="normal" style="color:lightpink;"><i>"Happiness depends upon ourselves"</i> </span>
+          <h5><span>January 10, 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="me.png" alt="Me" style="width:50%" class="w3-padding-16">
+          <style>
+          img {
+          	display: block;
+          	margin-left: auto;
+          	margin-right: auto;
+          } </style>
+
+          <div class="a">
+          <p><strong>Hey all!</strong> Welcome to my personal website. I am so excited to share about my life with you all. <strong>Get ready  to know me better! </strong></p></div>
+        <div class="a">
+          <p>My name is <strong>Nurathirah Shafiqah Binti Rosdin</strong>. This year I am 22 years old. I was born in Kuala Lumpur, and live in Sentul, Kuala Lumpur. We have lived in Sentul for a long time, and we've been here until now. Currently, I am a final year student in the Diploma in Information Management. Besides being busy in my studies, I also work at a law firm. Because my final semester is entirely online, I took the opportunity to gain some valuable work experience before the semester ended. It is my opinion that, if you want to do something you think you can do, there is nothing that can stop you but yourself.  </p>
+          <p> During this pandemic moment, I saw many things change in the blink of an eye. So, throughout the pandemic many people do a lot of things they love to help restore mental health in order to always maintain a positive mindset. Nothing is more essential than having a family that stays together through thick and bad. My parents are the finest parents I've ever had, and they will never be surpassed in my eyes. In addition, I have two brothers and three sisters, all of whom bring a smile to my face and we will always work together to help each other out.</p></div>
+          <h2><u>Members of the family</h2></u>
+
+          <table style="width:100%">
+          <table id="customers">
+
+          <tr>
+          <th><center>Name</th>
+          <th><center>Birthdate</th> 
+          <th><center>Age</th>
+        </tr>
+        <tr>
+          <td>Rosdin (Father)</td>
+          <td><center>1<sup>th</sup> December 1970</td>
+          <td><center>52</td>
+        </tr>
+        <tr>
+          <td>Cik Sabina (Mother)</td>
+          <td><center>28<sup>rd</sup> December 1974</td>
+          <td><center>48</td>
+        </tr>
+        <tr>
+          <td>Nurazreen Shareena (Sister)</td>
+          <td><center>23<sup>th</sup> September 1995</td>
+          <td><center>27</td>
+        </tr>
+        <tr>
+          <td>Nur Deana Shahirah (Sister)</td>
+          <td><center>2<sup>th</sup> July 1997</td>
+          <td><center>25</td>
+        </tr>
+        <tr>
+          <td>Nurathirah Shafiqah (Me)</td>
+          <td><center>17<sup>th</sup> December 2000</td>
+          <td><center>22</td>
+        </tr>
+        <tr>
+          <td>Muhammad Aiman Muqrish (Brother)</td>
+          <td><center>5<sup>th</sup> August 2002</td>
+          <td><center>20</td>
+        </tr>
+        <tr>
+          <td>Muhammad Airiel Muqrish (Brother)</td>
+          <td><center>17<sup>th</sup> February 2009</td>
+          <td><center>13</td>
+        </tr>
+        <tr>
+          <td>Nur Dania Qistina (Sister)</td>
+          <td><center>11<sup>th</sup> January 2011</td>
+          <td><center>11</td>
+        </tr>
+        </table>
+        <br>
+        <div class="a">
+          <p><strong>Universiti Teknologi Mara Negeri Sembilan, Rembau</strong>, is where I study now. Being a student has given me a lot of fun, which I enjoy. This is the life of everything that happens, and will surely be missed. My classmates and I still need to complete the final work that is still there in order to complete this Diploma successfully. Hopefully, my path to completion of the diploma will be eased, and will then be prepared to continue our studies at the bachelor's degree level.</p></div>
+          <img src="family.jpg" alt="Family" style="width:70%" class="w3-padding-16">
+          <img src="family2.jpg" alt="Family" style="width:70%" class="w3-padding-16">
+          <style>
+          img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          } </style>
+          <h2 class="w3-large">Family</h2>
+          <img src="friend.jpg" alt="Friend" style="width:50%" class="w3-padding-16">
+          <style>
+          img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          } </style>
+          <h2 class="w3-large">Friend</h2>
+          <div class="a">
+          <p>Regardless of how exhausting studying during this epidemic was for me. I am still grateful to my lecturers and friends for assisting me with assignments, and my colleagues continue to connect and communicate with me despite our inability to meet during the epidemic. I would like to express my deepest gratitude to <strong>Puan Seri Intan Idayu Sharul Asari</strong> for her advice and ongoing monitoring, as well as for supplying the video for this project. I realise how difficult it is for lecturers to teach during this epidemic, much more so in classes without two-way contact. Teaching or being an educator is a demanding profession, but it is also a noble one. <strong>Thank you to all of the lecturers!</strong></p></div>
+
+          <p class="w3-left"><button class="w3-button w3-black w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+    
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+       <!-- Blog entry -->
+      <div class="w3-container w3-pale-red w3-margin w3-padding-large">
+        <div class="w3-center w3-container w3-black">
+          <h3>MY TOP 4 FAVOURITE OUTFIT IDEAS</h3>
+          <h5><span class="normal" style="color:lightpink;">Outfit, <span class="w3-opacity">January 10, 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="outfit.jpg" alt="Outfit" style="width:100%" class="w3-padding-16">
+        <div class="a"> 
+          <p>I am shy, socially anxious, insecure, quiet that’s what came all on it’s own. Confidence came by choice. And if you haven’t already chosen confidence and continued to choose it every time you get dressed, every time you find yourself dating, career, or life. Here are my top 4 favourite outfit ideas for boosting my self-esteem.</p></div>
+        <hr>
+          <h5>Open Shirt Dresses</h5>
+          <p>You can take the look to another level and open it at the front, with a skirt or pants underneath. That way you're changing up the look and giving it more dimension and flare. Or you can also wear it like a cardigan, having it completely open.</p>
+        <hr>
+          <h5>Abaya LookBook 2021</h5>
+            <p>Many Muslim women wear abayas as part of their day-to-day outfits, especially in the Middle East. And why wouldn’t they? Aside from being stylish, abayas are also comfortable and convenient—in fact, one of the most popular abaya styles is an open abaya.</p>
+
+            <center>
+              <iframe width="660" height="415" src="https://www.youtube.com/embed/X3nzm-x2--s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center>
+        <hr>
+            <h5>10 Modest Fall Outfit Ideas!</h5>
+            <p>While certain fashion trends may not have been initially designed to work with modest fashion, hijabi women illustrate that they can be trendy and fantastic by incorporating them into their style in a very clever manner, no matter how unorthodox. Here are some modest fall outfit ideas that I really like.</p>
+
+          <center>
+            <iframe width="660" height="415" src="https://www.youtube.com/embed/ohsbXp6lBpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </center>
+        <hr>
+            <h5>Jumpsuits</h5>
+          <p>They're super chic, can be dressed up or down and they're very comfortable. You can also wear them with sneakers, slip-ons, flats or heels.</p>
+          <center><img src="jump.jpg" style="width: 90%" class="w3-padding-16"></center>
+          <br>
+          <p class="w3-left"><button class="w3-button w3-black w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+
+          <p class="w3-clear"></p>
+
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-pale-red w3-margin w3-padding-large">
+        <div class="w3-center w3-container w3-black">
+          <h3>MY EXPERIENCE WORKING DURING ODL</h3>
+          <h5><span class="normal" style="color:lightpink;">Law Firm, <span class="w3-opacity">October 1, 2021</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="work.jpg" alt="Work" style="width:100%" class="w3-padding-16">
+          <p>Starting in early <strong>October 2021</strong>, I worked at a law firm in Solaris Mont Kiara.
+          <div class="a">
+          <p>I would never have chosen this job, but it was offered to me. After a week of work, the final semester lectures begin. I had previously planned in advance how I would divide my time to complete the assignments given to me according to my work and also to be able to join online classes. I am still able to follow all the learning taught in each class by the lecturers until now. Working as a student makes me very happy because I not only perform the work given by the employer, but I also learn and receive new knowledge. </p></div>
+          <p>Furthermore, the workplace environment is nice, as well as the staff is polite and comfortable to communicate. Furthermore, they were very helpful when I needed help because at the beginning of work I was still unfamiliar with office equipment. Moreover, I am lucky to have an employer who understand   my status as a student. I have never worked for an employer who does not count and is willing to help me understand to complete all the work I need to perform. I will continue to work hard to improve my performance and acquire new skills. So far, that's all I can say, I hope i will not be stopped from having new work experience, and that if the chance comes, I would like to try something new. </p>
+        <hr>
+          <p class="w3-left"><button class="w3-button w3-black w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+
+          <p class="w3-clear"></p>
+          
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+
+       <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Favourite Food</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-pale-red">
+          <li class="w3-padding-16">
+            <img src="buttermilk.jpg" alt="Image" class="w3-left w3-margin-right" style="width:30%">
+            <span class="w3-large">Chicken Buttermilk</span>
+            <br>
+            <span style='font-size:20px;'>&#127831;</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="ramen.jpg" alt="Image" class="w3-left w3-margin-right" style="width:30%">
+            <span class="w3-large">Spicy Ramen</span>
+            <br>
+            <span style='font-size:20px;'>&#127836;</span>
+            <br>
+            <br>
+          </li>
+          <li class="w3-padding-16">
+            <img src="tomyam.jpg" alt="Image" class="w3-left w3-margin-right" style="width:30%">
+            <span class="w3-large">Tomyam</span>
+            <br>
+            <span style='font-size:20px;'>&#127858;</span>
+            <br>
+            <br>
+          </li>
+          <li class="w3-padding-16">
+            <img src="sushi.jpg" alt="Image" class="w3-left w3-margin-right" style="width:30%">
+            <span class="w3-large">Sushi</span>
+            <br>
+            <span style='font-size:20px;'>&#127843;</span>
+            <br>
+            <br>
+          </li>
+        </ul>
+      </div>
+      <hr>
+       <!-- About Card -->
+      <div class=" w3-margin">
+        <img src="vicenzo.jpg" alt="Jane" style="width:100%" class="w3-padding-16">
+        <div class="w3-container w3-pale-red">
+          <h3>VICENZO (2021)</h3>
+          <div class="w3-panel w3-leftbar">
+    <p><i class="fa fa-quote-right w3-xxlarge"></i><br>
+    <i class="w3-serif w3-xlarge">
+    <p class="w3 serif w3-large">
+    I absolutely LOVED this drama. It had the perfect balance of humor and action/violence, and there were many genuinely laugh-out-loud moments starting from the first episode. </i>
+        </div>
+      </div>
+    </div>
+      <hr>
+
+      <div class="w3-red w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Favourite Song <span'>&#128175;</span></h4>
+        </div>
+        <div class="w3-container w3-pale-red">
+          <div>
+            <img src="adele.jpg" alt="Adele" style="width:100%" class="w3-padding-16">
+          </div>
+        <center>
+        <marquee behavior="scroll" scrollamount="5" direction="right"><strong>Adele - Million Years Ago</marquee></strong>
+        <br><audio controls>
+        <source src="Adele.mp3" type="audio/mpeg">
+        </audio>
+        <div class="w3-container w3-xlarge w3-padding">
+        </div>
+        </center>
+        </div>
+        </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-pale-red">
+          <div>
+            <img src="elm.jpg" alt="Elm" style="width:100%" class="w3-padding-16">
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Gallery <span'>&#128150;</span></h4>
+        </div>
+        <div class="w3-row-padding w3-pale-red">
+          <div class="w3-col s6">
+            <p><img src="baby.jpg" alt="Baby" style="width:100%" class="w3-padding-16"></p>
+            <p><img src="ica.jpg" alt="Ica" height="275" style="width:100%" class="w3-padding-16"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="ayang.jpg" alt="Ayang" height="275" style="width:100%" class="w3-padding-16"></p>
+            <p><img src="ijah.jpg" alt="Ijah" height="275" style="width:100%" class="w3-padding-16"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+       <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-pale-red">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-black">Subscribe</button></p>
+          <img src="tenor.gif" align="center" width="40%">
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-pale-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-pale-red" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+<marquee direction="left" scrollamount="17">
+  <img src="rabbit.gif" align="left" width="7%" hspace="20">
+</marquee>
+
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>          
+
+</body>
+</html>
